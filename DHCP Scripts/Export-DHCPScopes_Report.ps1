@@ -30,10 +30,10 @@
 # Start of Script
 
 # Path to the text file containing list of DHCP Server names
-$DhcpServerList = "C:\Scripts\Servers.txt"
+$DhcpServerList = "C:\Temp\Servers.txt"
 
 # Output path for CSV
-$OutputPath = "C:\Scripts\DHCPScopesExport.csv"
+$OutputPath = "C:\Temp\DHCPScopesExport.csv"
 
 # Module Installation
 Import-Module DHCPServer
