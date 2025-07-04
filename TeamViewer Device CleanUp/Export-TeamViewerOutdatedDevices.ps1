@@ -41,7 +41,7 @@ function Get-ApiToken {
 }
 
 # Email configuration
-$EmailRecipient = "Email Address" #,"Cognizant-EUC-SCCM@cabotcorp.com"
+$EmailRecipient = "Email Address" #,"Email Address"
 $SMTPServer = "smtp server address"
 $FromEmail = "From Email Address"
 $Hostname = $env:COMPUTERNAME
